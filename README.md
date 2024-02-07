@@ -20,3 +20,18 @@
 问题陈述：
 - 预测候选人会为公司工作的概率
 - 解释模型，阐明哪些特征影响了候选人的决定
+
+
+以下是对每个特征进行编码的部分：
+
+- 'gender'特征：将缺失值填充为0，然后使用字典映射将'Male'、'Female'和'Other'分别替换为1、2和3。
+- 'relevent_experience'特征：使用字典映射将'Has relevent experience'和'No relevent experience'分别替换为1和2。
+- 'enrolled_university'特征：将缺失值填充为0，然后使用字典映射将'no_enrollment'、'Full time course'和'Part time course'分别替换为1、2和3。
+- 'education_level'特征：将缺失值填充为0，然后使用字典映射将'Graduate'、'Masters'、'High School'、'Phd'和'Primary School'分别替换为1、2、3、4和5。
+- 'major_discipline'特征：将缺失值填充为0，然后使用字典映射将'STEM'、'Business Degree'、'Arts'、'Humanities'、'No Major'和'Other'分别替换为 1、2、3、4、5和6。
+- 'experience'特征：将缺失值填充为0，然后使用字典映射将'>20'替换为25，'<1'替换为0.5，并将数据类型转换为浮点型。
+- 'company_size'特征：使用字典映射将'<10'、'10/49'、'50-99'、'100-500'、'500-999'、'1000-4999'、'5000-9999'和'10000+'分别替换为5、30、75、- 300、750、3000、7500和15000，并将缺失值填充为0。
+- 'company_type'特征：使用字典映射将'Pvt Ltd'、'Funded Startup'、'Public Sector'、'Early Stage Startup'、'NGO'和'Other'分别替换为1、2、3、4、5和6，并将缺失值填充为0。
+- 'last_new_job'特征：使用字典映射将'>4'替换为5，'never'替换为0，并将缺失值填充为0，并将数据类型转换为浮点型。
+
+![image](https://github.com/Olivia-account/commodity-data-processing/assets/60562899/51478457-ab3f-4ac1-bc98-a89fd9caf18c)
