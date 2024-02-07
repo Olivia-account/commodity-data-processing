@@ -35,3 +35,8 @@
 - 'last_new_job'特征：使用字典映射将'>4'替换为5，'never'替换为0，并将缺失值填充为0，并将数据类型转换为浮点型。
 
 ![image](https://github.com/Olivia-account/commodity-data-processing/assets/60562899/51478457-ab3f-4ac1-bc98-a89fd9caf18c)
+
+# 完整讲解
+https://blog.csdn.net/m0_46573428/article/details/136068236
+# 后记
+如果觉得有帮助的话，求 关注、收藏、点赞、星星 哦！
